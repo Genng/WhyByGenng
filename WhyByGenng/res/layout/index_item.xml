@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/index_item_selector"
+     >
+    <TextView
+    android:id="@+id/index_tx"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="1.牛奶加热后为什么会有层皮1.牛奶加热后为什么会有层皮"
+    android:textSize="16sp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:singleLine="true"
+    android:maxEms="15"
+    android:gravity="center_vertical"
+    android:minHeight="50dp"
+/>
+
+</RelativeLayout>

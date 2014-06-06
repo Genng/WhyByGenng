@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- sp -->
+	<dimen name="size_title">20dip</dimen>
+    <dimen name="pop_x">160dip</dimen>
+	<dimen name="pop_y">200dip</dimen>
+	<dimen name="pop_layout_x">20dip</dimen>
+	<dimen name="pop_layout_y">90dip</dimen>
+ 
+</resources>

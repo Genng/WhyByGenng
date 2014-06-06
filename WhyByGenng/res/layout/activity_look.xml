@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <include layout="@layout/head_top"
+        android:id="@+id/look_rv"
+        />
+    <cn.jian.whybygenng.view.CustomerScrollView
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent" 
+    	android:scrollbars="none"
+    	android:layout_margin="10dp"
+    	android:layout_below="@+id/look_rv"
+    	>
+    	<LinearLayout 
+    	    android:layout_width="match_parent"
+    		android:layout_height="wrap_content" 
+    		android:orientation="vertical"
+    		
+    	    >
+    	      <TextView 
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content" 
+            android:id="@+id/look_tx"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="1.牛奶加热后为什么会有层皮"
+            />
+    	    
+    	      <TextView 
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content" 
+            android:id="@+id/look_tx1"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:text="那层浮在牛奶表面的皮是凝固了的蛋白质。牛奶中含有牛生长发育的所有必需的营养成分，蛋白质就是其中非常重要的一种营养成分。蛋白质一旦受热就会凝固。煮熟的鸡蛋之所以会凝固，就是因为鸡蛋里的蛋白质凝固了。
+牛奶中的蛋白质也会因加热而凝固。蛋白质，特别是牛奶的蛋白质，即便不加热，一变质就会凝固。蛋白质变质时会产生酸，酸能使牛奶凝固。用乳酸菌凝固的酸奶酪虽然能吃，但自然变质而凝固的牛奶还是不吃为好，因为不知道里面会含有什么样的能使人致病的细菌。"
+            />
+    	    
+    	    
+    	</LinearLayout>
+        
+    </cn.jian.whybygenng.view.CustomerScrollView>
+
+</RelativeLayout>
